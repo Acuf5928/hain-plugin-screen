@@ -1,0 +1,21 @@
+{
+  "name": "hain-plugin-screen",
+  "version": "1.0.0",
+  "description": "A simple Hain plugin for tourn off Monitor",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acuf5928/hain-plugin-screen"
+  },
+  "keywords": [
+    "hain0"
+  ],
+  "author": "Acuf5928",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/screen ",
+    "usage": "/screen ",
+    "icon": "#fa fa-terminal",
+    "redirect": "/screen "
+  }
+}
