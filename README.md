@@ -14,7 +14,7 @@ Open Hain and type
 /screen
 ```
 
-IMPORTANT: Copy nircmd.exe into C:\
+IMPORTANT: Copy nircmd-32.exe or nircmd-64.exe into C:\ and rename it nircmd.exe
 
 http://www.nirsoft.net/utils/nircmd.html
 
