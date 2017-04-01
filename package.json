@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-screen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Hain plugin for tourn off Monitor",
   "main": "index.js",
   "repository": {
