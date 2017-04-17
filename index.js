@@ -28,7 +28,7 @@ module.exports = (pluginContext) => {
 
     function execute(id, payload) {
         if (payload == 'SpegniSchermo') {
-            var child = spawn('cmd', ['/c','start cmd /k', 'C:\\nircmd.exe monitor off'],  {
+			var child = spawn('cmd', ['/c', 'C:\\nircmd.exe monitor off'],  {
        		detached: true,
        		stdio: 'ignore',
        		cwd: os.homedir()
@@ -36,7 +36,7 @@ module.exports = (pluginContext) => {
 		 }
         
 		if (payload == 'SpegniPc') {
-            var child = spawn('cmd', ['/c','start cmd /k', 'shutdown -s -t 1'],  {
+            var child = spawn('cmd', ['/c', 'shutdown -s -t 0'],  {
        		detached: true,
        		stdio: 'ignore',
        		cwd: os.homedir()
@@ -44,7 +44,7 @@ module.exports = (pluginContext) => {
 		 }
 		
         if (payload == 'RiavviaPc') {
-            var child = spawn('cmd', ['/c','start cmd /k', 'shutdown -r -t 1'],  {
+            var child = spawn('cmd', ['/c', 'shutdown -r -t 0'],  {
        		detached: true,
        		stdio: 'ignore',
        		cwd: os.homedir()
